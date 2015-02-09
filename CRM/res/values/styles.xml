@@ -1,0 +1,217 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="my_dialog_theme" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 除去title -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 除去背景色 -->
+        </style>
+
+    <style name="headtitleStyle">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/headTextColor</item>
+    </style>
+
+    <style name="searchLableStyle">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#929397</item>
+    </style>
+
+    <style name="nicknameStyle">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#B3B4B6</item>
+    </style>
+
+    <style name="topicTypeStyle">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">#C7C8C9</item>
+    </style>
+
+    <style name="gridViewTextStyle">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#B3B4B6</item>
+    </style>
+    
+    <style name="topicNameStyle">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#7C7D7F</item>
+    </style>
+
+    <style name="autherNameStyle">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#6BCFB8</item>
+    </style>
+
+    <style name="topicTitleStyle">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="topicContentStyle">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#ADAFB4</item>
+    </style>
+
+    <style name="buttonTextStyle">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="conditionStyle">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#44484C</item>
+    </style>
+
+    <style name="grayTextStyle">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#B3B4B6</item>
+    </style>
+    
+    <style name="wenduStyle">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">#44484C</item>
+    </style>
+
+    <style name="btitleStyle">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="replyContextStyle">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="secondTitleStyle">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="logoutText">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#FF7979</item>
+    </style>
+
+    <style name="publishLableStyle">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#47596A</item>
+    </style>
+
+    <style name="deleteImageIcon">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="publicTextColor">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#E9B658</item>
+    </style>
+
+    <style name="waitReplyColor">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#79FF79</item>
+    </style>
+
+    <style name="tab_item_text_style">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+    <style name="MMListCatalog">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff595c61</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">#ffced2d7</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="Transparent">
+
+　　                         <item name="android:windowBackground">@color/transparent</item>
+
+　　                        <item name="android:windowIsTranslucent">true</item>
+
+　　                        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+
+　　  </style>
+
+    <style name="FullScreenDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+	    <style name="subTitleStyle">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+        <style name="productBrowserStyle">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">#C7C8C9</item>
+    </style>
+    
+	<style name="DialogText">
+        <item name="android:textColor">#575859</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="DialogText.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#1CB3F2</item>
+    </style>
+    
+    <style name="DialogButton">
+        <item name="android:background">@drawable/dialog_button_bg</item>
+        <item name="android:textColor">@drawable/dialog_button_color</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+    
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+	    <item name="android:windowFrame">@null</item>
+	    <item name="android:windowNoTitle">true</item>
+		<item name="android:windowBackground">@drawable/popover</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+	</style>
+    
+
+</resources>

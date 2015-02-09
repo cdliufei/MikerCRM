@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="2dp">
+        <TextView
+        android:id="@+id/titleNeedForDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_punch_record_now_time"
+        android:padding="8dp"
+        android:textColor="@color/sbc_page_number_text"
+        android:background="@color/schedule_calendar_bg"
+        android:textSize="17sp"
+        android:visibility="gone" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:padding="2dp">
+    <TextView
+        android:id="@+id/record_time"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="1dp"
+        android:text="8:34"
+        android:gravity="center"
+        android:textColor="@color/schedule_calendar_num"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/schedule_item_diver" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/record_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:text="testtest"
+             android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/record_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:text="test"
+             android:textColor="@color/schedule_calendar_num"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

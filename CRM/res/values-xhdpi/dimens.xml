@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="cell_margin_top">60px</dimen>
+<dimen name="cell_margin_left">115px</dimen>
+<dimen name="cell_text_size">18sp</dimen>
+<dimen name="calenda_height">630px</dimen>
+<dimen name="month_margin_left">20dp</dimen>
+<dimen name="month_margin_right">15dp</dimen>
+<dimen name="record_dialog_height">120px</dimen>
+<dimen name="my_dialog_width">47dp</dimen>
+<dimen name="my_dialog_height">100dp</dimen>
+<dimen name="time_dialog_width">54dp</dimen>
+<dimen name="time_dialog_height">115dp</dimen>
+<dimen name="tutorial_margin_bottom">55dp</dimen>
+</resources>

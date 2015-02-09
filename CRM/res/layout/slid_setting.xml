@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/left_slid_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.mnker.crm.LoginActivity" >
+
+    <ImageView
+        android:id="@+id/iv_usericon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/zhuye_headpic" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="@string/left_slide_username"
+        android:textColor="@color/left_slid_user_txt"
+        android:textSize="29sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_connect_http"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/zhuye_lianjieshezhi"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/login_net"
+            android:textColor="@color/left_slid_txt"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/left_slid_tex_line" />
+
+        <TextView
+            android:id="@+id/tv_sync"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/zhuye_shujutongbu"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/left_slide_sync"
+            android:textColor="@color/left_slid_txt"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/left_slid_tex_line" />
+        <TextView
+            android:id="@+id/tv_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/zhuye_shujutongbu"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/left_slide_check"
+            android:textColor="@color/left_slid_txt"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/left_slid_tex_line" />
+
+        <TextView
+            android:id="@+id/tv_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/zhuye_tuichudenglu"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/left_slide_quit"
+            android:textColor="@color/left_slid_txt"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

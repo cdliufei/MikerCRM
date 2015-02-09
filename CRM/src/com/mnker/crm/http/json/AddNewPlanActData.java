@@ -1,0 +1,45 @@
+package com.mnker.crm.http.json;
+
+public class AddNewPlanActData {
+	public String type = "02";
+	public String uuid = "";
+	public int activityId;
+	public String name = "";
+	public int assignedUserId;
+	public String assignedUserName = "";
+	public int deptId;
+	public String deptName = "";
+	public int accountId;
+	public String accountName = "";
+	public int isRemind;
+	public int remindAhead;
+	public String remindTime = "";
+	public int createUserId;
+	public String createUserName = "";
+	public String createTime = "";
+	public String modifyTime = "";
+	public String description = "";
+	public String thnr = "";
+	public String jg = "";
+	public String xybjh = "";
+	public String remark = "";
+	public String zj = "";
+	public String purpose = "";
+	public int planId;
+	public String planName = "";
+	public int closeFlag;
+	public String eventAddress = "";
+	public String finishedTime = "";
+	public String actvtStatus = "";
+	public String status = "";
+	public String planStartTime = "";
+	public String planEndTime = "";
+	public String startTime = "";
+	public String endTime = "";
+	public String reportTime = "";
+	public String typeName = "";
+	public String contactName = "";
+	public int isAppAdd;
+	public int contactId;
+	public int typeId;
+}

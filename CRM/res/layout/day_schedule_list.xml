@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sbc_layout_view"
+    android:orientation="vertical"
+    tools:context="com.mnker.crm.LoginActivity" >
+
+    <TextView
+        android:id="@+id/tv_day_schedule_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_punch_record_now_time"
+        android:padding="8dp"
+        android:textColor="@color/sbc_page_number_text"
+        android:background="@color/schedule_calendar_bg"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lv_day_schedule_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_day_schedule_title"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:fadingEdge="none" />
+
+</RelativeLayout>

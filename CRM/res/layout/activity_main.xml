@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gonggong_bg"
+    android:orientation="vertical"
+    tools:context="com.mnker.crm.LoginActivity" >
+
+    <ImageView
+        android:id="@+id/iv_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/zhuye_settingsbutton" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_punch_card"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/zhuye_daka"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:text="@string/main_daka"
+            android:textColor="@android:color/white"
+            android:textSize="29sp" />
+
+        <TextView
+            android:id="@+id/tv_work_schedule"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/zhuye_gongzuoricheng"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:text="@string/main_schedule"
+            android:textColor="@android:color/white"
+            android:textSize="29sp" />
+
+        <TextView
+            android:id="@+id/tv_contact"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/zhuye_lianxiren"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:text="@string/main_contacts"
+            android:textColor="@android:color/white"
+            android:textSize="29sp" />
+    </LinearLayout>
+
+</RelativeLayout>

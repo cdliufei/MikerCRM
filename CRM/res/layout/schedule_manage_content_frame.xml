@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/schedule_title_bg"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/wback_white" />
+
+        <TextView
+            android:id="@+id/tv_schedule_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/schedule_title_txt"
+            android:textColor="@color/left_slid_user_txt"
+            android:textSize="23sp" />
+
+        <ImageView
+            android:id="@+id/iv_schedule_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/richengguanli_selector" />
+
+        <ImageView
+            android:id="@+id/iv_schedule_calandar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/iv_schedule_list"
+            android:src="@drawable/gongzuoricheng_selector" />
+    </RelativeLayout>
+
+    <!-- 内容 -->
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/schedule_menu_bg"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_schedule_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/richengguanli_addico"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/schedule_menu_add"
+                android:textColor="@color/schedule_menu_txt"
+                android:textSize="23sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_schedule_qurey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/richengguanli_searchico"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/schedule_menu_query"
+                android:textColor="@color/schedule_menu_txt"
+                android:textSize="23sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_schedule_syn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/richengguanli_syncico"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/schedule_menu_sync"
+                android:textColor="@color/schedule_menu_txt"
+                android:textSize="23sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

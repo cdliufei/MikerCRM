@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/pageGreyBg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/titile_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/schedule_title_bgnoalpha"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/wback_white" />
+
+        <TextView
+            android:id="@+id/tv_schedule_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="工作计划"
+            android:textColor="@color/left_slid_user_txt"
+            android:textSize="23sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/contact_list_back_btnll"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:visibility="gone" >
+
+            <ImageButton
+                android:id="@+id/contact_list_back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/detail_03back" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/search_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@id/contact_list_back_btnll"
+            android:drawableLeft="@drawable/ic_search"
+            android:hint="@string/search_hint"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="90dip"
+            android:layout_height="30dip"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="手机联系人"
+            android:textColor="#a7dce3"
+            android:textSize="15dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/listVline" />
+    <RelativeLayout
+        android:id="@+id/contact_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/weekplanlist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/pageWiteBg"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:dividerHeight="0dp" />
+    </RelativeLayout>
+
+</LinearLayout>
